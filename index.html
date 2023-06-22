@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="shortcut icon" href="/confusion.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+ <div class="wrapper">
+    <img id="mainImg" src="/confused.png" alt="">
+    <h1>Gress the number and win exciting prizes</h1>
+    <p class="para">Try and guess the random number between 1 to 100</p>
+    <p class="para">You have 10 attempts to guess the correct number</p>
+
+    <form action="">
+        <input type="text" id="inputNumber" maxlength="3" autocomplete="off">
+        <input id="submitBtn" type="submit" value="Submit guess">
+    </form>
+
+    <div class="info">
+        <p id="lowHigh"></p>
+        <p>Previous Guesses : <span id="ourGuesses"></span></p>
+        <p>Remaining Guesses :  <span id="remainGuess"></span></p>
+    </div>
+    
+ </div>   
+</body>
+</html>
